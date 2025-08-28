@@ -1,2 +1,2 @@
-# Clase-Pr-ctica-
+# Clase-Practica-
 sitio web de heladería artesanal 
