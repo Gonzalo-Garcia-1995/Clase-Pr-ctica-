@@ -8,6 +8,7 @@
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./nosotros.css">
     <script src="https://kit.fontawesome.com/ff64ca142c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/logo-helado.png" type="image/x-icon">
 
     <title>Nosotros</title>
 </head>
@@ -15,17 +16,50 @@
 <body>
     <header>
         <nav>
+
             <div id="navegador">
                 <a href="./nosotros.html"> <img src="./assets/logo-tello.svg" alt="logo" width="100px"></a>
                 <button type="button" class="btn btn-light">Inicio</button>
 
-                <button type="button" class="btn btn-light">Productos</button>
+                <div class="dropdown">
+                    <button class="btn btn-dody dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Productos
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Sabores</a></li>
+                        <li><a class="dropdown-item" href="#">Paletas Ice Pop</a></li>
+                        <li><a class="dropdown-item" href="#">Tortas Heladas</a></li>
+                    </ul>
+                </div>
 
                 <button type="button" class="btn btn-light">Party Service</button>
 
-                <button type="button" class="btn btn-light">Nosotros</button>
+                <div class="dropdown">
+                    <button class="btn btn-dody dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Nosotros
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Nuestra Historia</a></li>
+                        <li><a class="dropdown-item" href="#">Nuestras Sucursales</a></li>
 
-                <button type="button" class="btn btn-light">Contacto</button>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn btn-dody dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Contacto
+                    </button>
+                    <ul class="dropdown-menu">
+
+                        <li><a class="dropdown-item" href="#">Ingreso Usuarios</a></li>
+                        <li><a class="dropdown-item" href="#">Contactanos</a></li>
+                        <li><a class="dropdown-item" href="#">Trabaja Con Nosotros</a></li>
+
+                    </ul>
+                </div>
 
                 <form class="d-flex" role="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -92,8 +126,10 @@
 
         <div>
 
+            <img class="local-image"  src="./assets/local-barrio-norte-00-1536x1151.jpg" alt="imagen-heladeria" width="500px">
 
-            <img class="carrusel-img" src="./assets/heladería-imagen.jpg" alt="...">
+
+
         </div>
 
 
